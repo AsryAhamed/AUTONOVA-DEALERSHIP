@@ -53,7 +53,7 @@ const Testimonials = () => {
               <div className="flex-shrink-0">
                 <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-primary shadow-lg">
                   <img
-                    src={`/src/assets/images/${testimonials[currentIndex].image}`}
+                    src={`/images/${testimonials[currentIndex].image}`}
                     alt={testimonials[currentIndex].name}
                     className="w-full h-full object-cover"
                   />

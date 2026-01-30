@@ -45,7 +45,7 @@ const Contact = () => {
         {/* Hero Image */}
         <div className="mb-16 rounded-3xl overflow-hidden shadow-2xl h-64">
           <img
-            src="/src/assets/images/Parking.JPG"
+            src="/images/Parking.jpg"
             alt="AutoNova Parking"
             className="w-full h-full object-cover"
           />

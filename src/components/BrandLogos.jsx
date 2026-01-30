@@ -23,7 +23,7 @@ const BrandLogos = () => {
               className="flex items-center justify-center p-6 md:p-8 bg-white rounded-xl shadow-md hover-lift cursor-pointer group transition-all duration-300"
             >
               <img
-                src={`/src/assets/images/${brand.logo}`}
+                src={`/images/${brand.logo}`}
                 alt={brand.name}
                 className="w-full h-16 md:h-20 object-contain grayscale group-hover:grayscale-0 transition-all duration-300"
               />

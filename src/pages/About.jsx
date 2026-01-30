@@ -25,7 +25,7 @@ const About = () => {
         {/* Hero Image */}
         <div className="mb-16 rounded-3xl overflow-hidden shadow-2xl">
           <img
-            src="/src/assets/images/Entrance.JPG"
+            src="/images/Entrance.jpg"
             alt="AutoNova Entrance"
             className="w-full h-96 object-cover"
           />
@@ -70,7 +70,7 @@ const About = () => {
           </div>
           <div className="rounded-2xl overflow-hidden shadow-xl">
             <img
-              src="/src/assets/images/Cars Lined Up.JPG"
+              src="/images/Cars Lined Up.jpg"
               alt="Cars Lined Up"
               className="w-full h-full object-cover"
             />
@@ -82,7 +82,7 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="rounded-2xl overflow-hidden shadow-lg">
               <img
-                src="/src/assets/images/Team.JPG"
+                src="/images/Team.jpg"
                 alt="AutoNova Team"
                 className="w-full h-full object-cover"
               />

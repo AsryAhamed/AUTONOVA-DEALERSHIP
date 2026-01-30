@@ -131,15 +131,17 @@ export const featuredCars = [
 
 // Brand logos
 export const brands = [
-  { id: 1, name: 'Mercedes-Benz', logo: 'Benz-Logo.PNG' },
-  { id: 2, name: 'Toyota', logo: 'Toyota-Logo.PNG' },
-  { id: 3, name: 'Audi', logo: 'Audi-Logo.PNG' },
-  { id: 4, name: 'Mazda', logo: 'Mazda-Logo.PNG' },
-  { id: 5, name: 'Nissan', logo: 'Nissan-Logo.PNG' },
-  { id: 6, name: 'Honda', logo: 'Honda-Logo.PNG' },
-  { id: 7, name: 'BMW', logo: 'BMW-Logo.PNG' },
-  { id: 8, name: 'Porsche', logo: 'Porsche-Logo.PNG' },
+  { id: 1, name: 'Mercedes-Benz', logo: 'Benz-Logo.png' },
+  { id: 2, name: 'Toyota', logo: 'Toyota-Logo.png' },
+  { id: 3, name: 'Audi', logo: 'Audi-Logo.png' },
+  { id: 4, name: 'Mazda', logo: 'Mazda-Logo.png' },
+  { id: 5, name: 'Nissan', logo: 'Nissan-Logo.png' },
+  { id: 6, name: 'Honda', logo: 'Honda-Logo.png' },
+  { id: 7, name: 'BMW', logo: 'BMW-Logo.png' },
+  { id: 8, name: 'Porsche', logo: 'Porsche-Logo.png' },
 ];
+
+
 
 // Why choose us features
 export const features = [
@@ -147,25 +149,25 @@ export const features = [
     id: 1,
     title: 'Trusted Dealers',
     description: 'Licensed and certified dealers you can trust',
-    icon: 'Trusted Dealers.PNG',
+    icon: 'Trusted Dealers.png',
   },
   {
     id: 2,
     title: 'Warranty & Support',
     description: 'Comprehensive warranty and 24/7 support',
-    icon: 'Warranty & Support.PNG',
+    icon: 'Warranty & Support.png',
   },
   {
     id: 3,
     title: 'Best Price Guarantee',
     description: 'Competitive pricing with transparent deals',
-    icon: 'Best Price Guarantee.PNG',
+    icon: 'Best Price Guarantee.png',
   },
   {
     id: 4,
     title: 'Certified Cars',
     description: 'All vehicles thoroughly inspected and certified',
-    icon: 'Certified Cars.PNG',
+    icon: 'Certified Cars.png',
   },
 ];
 
@@ -174,14 +176,14 @@ export const testimonials = [
   {
     id: 1,
     name: 'Sarah Johnson',
-    image: 'customer1.JPG',
+    image: 'customer1.jpg',
     feedback: 'AutoNova made buying my first car an amazing experience! The team was professional, helpful, and I got an incredible deal on my Honda CR-V. Highly recommend!',
     rating: 5,
   },
   {
     id: 2,
     name: 'Michael Chen',
-    image: 'customer2.JPG',
+    image: 'customer2.jpg',
     feedback: 'I\'ve purchased three cars from AutoNova over the years. Their selection is outstanding, prices are fair, and the customer service is second to none. They\'re my go-to dealership!',
     rating: 5,
   },

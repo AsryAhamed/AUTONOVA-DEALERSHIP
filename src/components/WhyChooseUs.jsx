@@ -25,7 +25,7 @@ const WhyChooseUs = () => {
               {/* Icon */}
               <div className="w-24 h-24 mx-auto mb-6 relative">
                 <img
-                  src={`/src/assets/images/${feature.icon}`}
+                  src={`/images/${feature.icon}`}
                   alt={feature.title}
                   className="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-300"
                 />

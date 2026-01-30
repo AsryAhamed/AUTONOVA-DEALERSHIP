@@ -45,9 +45,7 @@ const CarDetails = () => {
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden mb-4">
               <div className="aspect-[4/3]">
                 <img
-                  src={`/src/assets/images/${
-                    selectedImage === 'exterior' ? car.exteriorImage : car.interiorImage
-                  }`}
+                src={`/images/${selectedImage === 'exterior' ? car.exteriorImage : car.interiorImage}`}
                   alt={`${car.name} - ${selectedImage}`}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
@@ -68,7 +66,7 @@ const CarDetails = () => {
                 >
                   <div className="aspect-[4/3]">
                     <img
-                      src={`/src/assets/images/${image.src}`}
+                      src={`/images/${image.src}`}
                       alt={`${car.name} - ${image.label}`}
                       className="w-full h-full object-cover"
                     />

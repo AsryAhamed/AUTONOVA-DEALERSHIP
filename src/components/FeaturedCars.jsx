@@ -25,7 +25,7 @@ const FeaturedCars = () => {
               {/* Car Image */}
               <div className="aspect-[4/3] overflow-hidden">
                 <img
-                  src={`/src/assets/images/${car.image}`}
+                  src={`/images/${car.image}`} 
                   alt={car.name}
                   className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                 />

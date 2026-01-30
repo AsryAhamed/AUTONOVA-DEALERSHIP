@@ -111,11 +111,7 @@ const Navbar = () => {
                   {link.label}
                 </Link>
               ))}
-              <Link to="/cars">
-                <button className="btn-primary w-full">
-                  Browse Cars
-                </button>
-              </Link>
+              {/* "Browse Cars" button removed from here */}
             </div>
           </div>
         )}
